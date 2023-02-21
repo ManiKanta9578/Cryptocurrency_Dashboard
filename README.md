@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+<h1 align="center">Cryptocurrency Dashboard</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A crypto dashboard is a digital platform that lives on a website or an app (either desktop or mobile). Its primary function is to track your cryptocurrency coins and monitor their historical prices and current values so that you can manage both your crypto assets and related financial plans accordingly. The dashboard integrates with cryptocurrency exchanges or trackers like CoinMarketCap through an API or other tool to update your crypto assets in real-time.
 
-## Available Scripts
+This is a cryptocurrency dashboard app built using **React 18**, **Tailwind CSS**, **React-redux**, **Redux-thunk**, **React-chartjs-2** and **Chart.js 3**. The app uses the **CoinGecko API** to get cryptocurrency data such as live prices, trading volume, exchange volumes, historical data, crypto categories, images, and more.
 
-In the project directory, you can run:
+### Go Live: [Cryptocurrency Dashboard](https://cryptocurrencydashboard.netlify.app/)
 
-### `npm start`
+### Desktop view:
+<img src="https://github.com/ManiKanta9578/Cryptocurrency_Dashboard/blob/master/public/CryptoDashboard.png" alt="image" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Mobile view:
+<img src="https://github.com/ManiKanta9578/Cryptocurrency_Dashboard/blob/master/public/ResponsiveCrypto.png"
+alt="responsive image pic" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Table of Contents 
+- [Prerequisites](#prerequisites)
+- [Features](#Features)
+- [Installation](#installation)
+- [Running the application](#run-the-application)
+- [Copyright and License](#copyright-and-license)
 
-### `npm test`
+## Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install the following prerequisites:
 
-### `npm run build`
+1. [Node.js](https://nodejs.org/en/)
+2. [Visual Studio Code](https://code.visualstudio.com/download)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Responsive application
+2. Dynamic Graphs
+3. Search for Cryptocurrencies
+4. Live rates for cryptos
+5. Chart types : Line & Bar charts
+6. Exchange rates between cryptocoins
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+### Install required dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+From the **root** directory run:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Run the application
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+From the **root** directory run:
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### View the application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Go to [http://localhost:3000](http://localhost:3000) to view the application.
 
-### Code Splitting
+## Copyright and License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Copyright © 2023. Code released under the MIT license.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
