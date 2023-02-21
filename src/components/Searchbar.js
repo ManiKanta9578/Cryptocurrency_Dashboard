@@ -43,6 +43,7 @@ const SearchInput = ({ handleSearch }) => {
                 />
               </svg>
             </span>
+            {/* input field */}
             <input
               type="search"
               name="searchText"
